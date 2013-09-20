@@ -1,0 +1,44 @@
+/****************************************************************************
+
+DelphiMocksTestVersion.rc
+
+*****************************************************************************/
+
+#include "..\..\Version\Version.inc"
+
+LANGUAGE LANG_ENGLISH,SUBLANG_ENGLISH_NZ
+
+
+1 VERSIONINFO
+FILEVERSION ST_TEST_FULLVERSION
+PRODUCTVERSION ST_TEST_FULLVERSION
+FILEFLAGSMASK VS_FFI_FILEFLAGSMASK
+FILEFLAGS VS_FF_DEBUG | VS_FF_PRIVATEBUILD
+FILEOS VOS__WINDOWS32
+FILETYPE VFT_DLL
+{
+ BLOCK "StringFileInfo"
+ {
+  BLOCK "140904E4"
+  {
+   VALUE "CompanyName", ST_TEST_COMPANY
+   VALUE "FileDescription", ST_TEST_PRODUCT
+   VALUE "FileVersion", ST_TEST_VERSIONSTRING
+   VALUE "InternalName", "DelphiMocksTest\000"
+   VALUE "LegalCopyright", ST_TEST_COPYRIGHT
+   VALUE "LegalTrademarks", ST_TEST_TRADEMARK
+   VALUE "OriginalFilename", "DelphiMocksTest.exe\000"
+   VALUE "ProductName", ST_TEST_PRODUCT
+   VALUE "ProductVersion", ST_TEST_VERSIONSTRING
+   VALUE "Comments", "\000"
+  }
+
+ }
+
+ BLOCK "VarFileInfo"
+ {
+  VALUE "Translation", 5129, 1252
+ }
+
+}
+
